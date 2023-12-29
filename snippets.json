@@ -1,0 +1,66 @@
+{
+  "stack": {
+    "prefix": "stack",
+    "body": ["<div className=\"w-fit h-fit flex flex-row justify-center items-center gap-2 p-2\"></div>"]
+  },
+  "stack2": {
+    "prefix": "stack2",
+    "body": ["<div className=\"w-${1:fit} h-${2:fit} flex flex-${3:row} justify-${4:center} items-${5:center} gap-${6:2} p-${7:2}\"></div>"]
+  },
+  "grid": {
+    "prefix": "grid",
+    "body": ["<div className=\"w-fit h-fit grid grid-cols-2 grid-rows-5 gap-2 p-2\"></div>"]
+  },
+  "stackClassName": {
+    "prefix": "stackClassName",
+    "body": ["w-fit h-fit flex flex-row justify-center items-center gap-2 p-2"]
+  },
+  "p": {
+    "prefix": "p",
+    "body": ["<p className=\"w-fit h-fit overflow-visible font-medium text-black text-sm text-start\"></p>"]
+  },
+  "image": {
+    "prefix": "image",
+    "body": ["<Image src=\"https://picsum.photos/200/300\" alt=\"Image\" width={200} height={300} />"]
+  },
+  "children": {
+    "prefix": "children",
+    "body": ["className: React.HTMLAttributes<HTMLElement>;"]
+  },
+  "div": {
+    "prefix": "div",
+    "body": ["<div className=\"$1\"></div>"]
+  },
+  "ğğ": {
+    "prefix": "ğ",
+    "body": ["////"]
+  },
+  "component": {
+    "prefix": "component",
+    "body": [
+      "import { cn } from \"@/lib/utils\";",
+      "",
+      "interface Props {",
+      "  className?: string;",
+      "}",
+      "",
+      "function ${TM_FILENAME_BASE}({ className }: Props) {",
+      "  return <div className={cn(\"\", className)}>${0}</div>;",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE};",
+      ""
+    ],
+    "description": ""
+  },
+  "page": {
+    "prefix": "page",
+    "body": [
+      "function Page() {",
+      "  return <div className=\"fixed bottom-[81px] left-0 right-0 top-[90px] flex flex-col justify-start items-center overflow-y-scroll z-1\"></div>;",
+      "}",
+      "export default Page;"
+    ],
+    "description": ""
+  }
+}
